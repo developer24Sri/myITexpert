@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+
+.banner{
+    padding: 50px 0px;
+    background: url("./images/banner/bg.png") no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.banner-wrappper h1{
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.pin-data{
+    padding: 100px 0px;
+}
+
+.pin-data-box{
+    padding: 50px;
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    box-shadow: 1px 1px 38px 1px #9595953b;
+    border-radius: 15px;
+}
+
+.pin-data-box:not(:last-child){
+    margin-bottom: 40px; 
+}
+
+/* .pin-data-box:last-child{
+    margin: 0px;
+} */
+
+.pin-data-box>div{
+    position: relative;
+    top: 13px;
+}
+
+.pin-data-box>div p{
+    margin-top: 20px;
+}
+
+.work{
+    padding-bottom: 200px;
+}
+
+.work-wrapper-box>div{
+    padding: 30px;
+}
+
+.work-wrapper-box>div:first-child{
+    background-color: #ECECFE;
+}
+.work-wrapper-box>div:last-child{
+    background-color: #E0F7FA;
+}
+
+.steps{
+    padding: 200px 0px;
+    background: url("./images/steps/bg.png") no-repeat top;
+    background-size: cover;
+}
+
+.blue-box{
+    background-color: #651FFF;
+    color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.blue-box h4{
+    margin: 15px 0px;
+}
+ 
+/* .work-wrapper .container{
+    margin-right: 0px;
+} */
+
+/* Media Quaries */
+@media only screen and (min-width: 1400px) {
+    .work-wrapper{
+        position: relative;
+    }
+    
+    .work-wrapper img{
+       position: absolute;
+       right: 0px;
+       top: 0px;
+    }
+}
+
+
+@media only screen and (max-width: 1400px) {
+    .work-wrapper img{
+        width: 100%;
+    }
+}
+ 
+
+
+@media only screen and (max-width: 1200px) {
+    h2{
+     font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 998px) {
+    .banner-wrappper h1{
+        font-size: 40px;
+    }
+   .pin-data-box{
+    flex-direction: column;
+   }
+}
+
+
+

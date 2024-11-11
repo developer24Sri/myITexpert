@@ -1,0 +1,119 @@
+/* grid: <grid-template-rows>/ <grid-template-columns>;
+
+grid: <grid-template-areas>;
+
+grid: <grid-template-rows>/ <grid-auto-columns>;
+
+grid: <grid-auto-rows>/ <grid-template-columns>;
+
+grid: <grid-template-rows>/ <grid-auto-flow><grid-auto-columns>;
+
+grid: <grid-auto-flow><grid-auto-rows>/ <grid-template-columns>; */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* .container{
+    padding: 10px;
+}
+
+.my-grid{
+    display: grid;
+        grid-template-columns: repeat(1, 100px );
+        grid-template-rows: repeat(1, 100px 400px 100px);
+        grid-template-areas:
+            'cont1 cont1 cont1 cont1 cont1'
+            'cont2 cont2 cont2 cont4 cont4'
+            'cont5 cont5 cont5 cont4 cont4';
+            grid-gap: 10px;
+}
+
+.item-1{
+    background-color: lightgreen;
+    border: 1px solid black;
+    border-radius: 30px;
+    grid-area: cont1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-2{
+    background-color: lightseagreen;
+    border: 1px solid black;
+    border-radius: 30px;
+    grid-area: cont2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-4{
+    background-color: lightsalmon;
+    border: 1px solid black;
+    border-radius: 30px;
+    grid-area: cont4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-5 {
+    background-color: lightpink;
+    border: 1px solid black;
+    border-radius: 30px;
+    grid-area: cont5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.my-grid2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    grid-template-areas:
+        'con1 con1 con4 con5 con5'
+        'con2 con2 con4 con6 con6'
+        'con3 con3 con4 con6 con6';
+    grid-gap: 5px;
+}
+
+.con1 {
+    background-color: lightgreen;
+    border: 1px solid black;
+    grid-area: con1;
+}
+
+.con2 {
+    background-color: lightseagreen;
+    border: 1px solid black;
+    grid-area: con2;
+}
+
+.con3 {
+    background-color: lightsalmon;
+    border: 1px solid black;
+    grid-area: con3;
+}
+
+.con4 {
+    background-color: yellow;
+    border: 1px solid black;
+    grid-area: con4;
+}
+
+.con5 {
+    background-color: violet;
+    border: 1px solid black;
+    grid-area: con5;
+}
+
+.con6 {
+    background-color: orangered;
+    border: 1px solid black;
+    grid-area: con6;
+}

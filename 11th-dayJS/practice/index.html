@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    <title>To-do list</title>
+</head>
+<body>
+    <section class="section1">
+        <div class="container">
+            <div class="section-wrapper d-flex flex-column align-items-center justify-content-center my-3 py-4">
+                <div>
+                    <h1>TODO - List</h1>
+                </div>
+                <div>
+                    <label class="d-block">Build your day by listing your task's:</label>
+                    <input type="text" name="input" class="input">
+                    <button type="button" class="addbtn">add a list</button>
+                    <button type="button" class="delbtn">Delete the list's</button>
+                    <ul class="box-list">
+                        <!-- <li class="listelement">Item 1 <span class="strike">X</span></li>  -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./app.js"></script>
+</body>
+</html>

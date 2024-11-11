@@ -1,0 +1,118 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    .poppins-regular {
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+    
+        .poppins-thin-italic {
+            font-family: "Poppins", sans-serif;
+            font-weight: 100;
+            font-style: italic;
+        }
+    
+        .poppins-thin {
+            font-family: "Poppins", sans-serif;
+            font-weight: 100;
+            font-style: normal;
+        }
+}
+
+header{
+    background-image: url(./img/header/BG\ Image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 70px;
+}
+
+.header-wrapper1>div:first-child{
+    color: #ffffff;
+}
+
+.header-wrapper1>div:nth-child(2)>nav>a{
+    text-decoration: none;
+    color: white;
+}
+
+.header-wrapper1>div:nth-child(2)>span>nav>a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header-wrapper1>div:last-child>a{
+    text-decoration: none;
+}
+
+.my-btn {
+    padding: 5px 15px;
+    border-radius: 12px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.border-btn {
+    background-color: transparent;
+    border: 2px;
+    color: white !important;
+
+}
+
+.solid-btn {
+    background-color: #ffffff;
+    color: black !important;
+    border: 2px solid;
+}
+
+.header-wrapper2>div:first-child{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header-wrapper2>div:first-child>a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header-wrapper2>div:last-child>a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header-wrapper2>div:last-child{
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+.header-wrapper2>div:last-child>nav>a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header-wrapper3{
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+
+
+
+/* .header-wrapper2>div:first-child>p {
+    color: white;
+}
+
+.header-wrapper2>div:first-child>h1{
+    color: white;
+    font-weight: 900;
+    font-size: 120px;
+}
+
+.header-wrapper2{
+    color: #ffffff;
+    text-decoration: none;
+} */

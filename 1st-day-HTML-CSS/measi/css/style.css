@@ -1,0 +1,38 @@
+
+
+/* h3{
+    color: orangered;
+} */
+
+.xxxx{
+    color: blue;
+}
+.yyyy{
+    color: #FF761A;
+}
+
+
+.box-1{
+    background-color: grey;
+
+    border: 5px solid blue;
+
+    border-right: 10px solid green;
+
+    padding: 50px;
+
+    /* padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 150px;
+    padding-bottom: 200px; */
+
+    /* Two Parameters 1st --> Top and bottom 2nd --> left and right*/
+
+    /* padding: 50px 100px; */
+
+    /* Four Parameters 1st --> TOP 2nd --> right 3rd --> bottom 4th --> left */
+
+    /* padding: 50px 100px 150px 200px; */
+
+    margin: 50px;
+}
